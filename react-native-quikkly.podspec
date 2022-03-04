@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/quikkly/react-native.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/quikkly/react-native.git", :tag => "3.4.8" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
-  s.dependency 'Quikkly', "~> #{s.version}"
+  s.dependency 'Quikkly', "~> 3.4.8"
 end
